@@ -9,7 +9,7 @@ export const placesReducer = (state: PlacesState, action: PlacesAction ): Places
 
         return{
             ...state,
-            isLoading: true,
+            isLoading: false,
             userLocation: action.payload
         }
         default:
